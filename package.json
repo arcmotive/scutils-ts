@@ -1,0 +1,22 @@
+{
+  "name": "scutils-ts",
+  "version": "0.0.1",
+  "description": "Typescript socketcan utils",
+  "main": "build/candump.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "node --enable-source-maps build/candump.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "packageManager": "yarn@3.2.4",
+  "dependencies": {
+    "socketcan": "4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "typescript": "^4.8.4"
+  }
+}
