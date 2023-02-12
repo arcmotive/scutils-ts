@@ -2,6 +2,8 @@
 
 ## Install Dependencies
 
+This has been tested on node 18.3.0, versions above this should also work.
+
 ```
 > yarn
 ```
